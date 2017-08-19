@@ -7,6 +7,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
   <title></title>
   <link rel="stylesheet" href="https://unpkg.com/docute@3/dist/docute.css">
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    }
+  </style>
 </head>
 
 <body>
@@ -15,20 +20,31 @@
   <script>
     var MainNav = { title: '처음', path: '/' }
     var VueJS = {
-      title: 'Vue.js',
+      title: 'Vue.js[작업중]',
       type: 'dropdown',
       items: [
         { type: 'label', title: '준비중입니다...' },
       ]
     }
     var NativeScript = {
-      title: 'NativeScript',
+      title: 'NativeScript[작업중]',
       type: 'dropdown',
       items: [
-        { type: 'label', title: '기초' },
+        { type: 'label', title: 'NativeScript Core' },
         { title: '시작하기', path: '/ko/nativescript/index' },
-        { type: 'sep' },
-        { type: 'label', title: '심화', path: '/ko/nativescript/index' }
+        { title: '첫번째 앱', path: '/ko/nativescript/first-app' },
+        { title: '사이드킥', path: '/ko/nativescript/sidekick' },
+        { title: '디버깅', path: '/ko/nativescript/debug' },
+        { title: '[레이아웃] 네비게이션 드로어', path: '/ko/nativescript/layout-drawer' },
+        { title: '[레이아웃] 마스터-디테일', path: '/ko/nativescript/layout-master-detail' },
+        { title: '[레이아웃] 탭', path: '/ko/nativescript/layout-tab' },
+        { title: '멀티스레드', path: '/ko/nativescript/worker' },
+        { title: '하드웨어 사용하기', path: '/ko/nativescript/hardware' },
+        { title: '릴리즈', path: '/ko/nativescript/release' },
+        { type: 'label', title: '플러그인' },
+        { title: 'Ripple 효과', path: '/ko/nativescript/ripple-effect' },
+        { title: 'Fetch', path: '/ko/nativescript/fetch' },
+        { title: 'Vue.js', path: '/ko/nativescript/with-vue' }
       ]
     }
     var JavaScript = {
@@ -39,7 +55,7 @@
       ]
     }
     var Tools = {
-      title: '도구 사용법',
+      title: '도구 사용법[작업중]',
       type: 'dropdown',
       items: [
         { type: 'label', title: '준비중입니다...' },
