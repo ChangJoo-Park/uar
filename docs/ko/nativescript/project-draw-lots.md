@@ -13,7 +13,7 @@ Vue를 다루면서 Vue로 모바일 앱을 만들 수 있다는 **[Weex](https:
 
 Vue.js 한국어 사용자 모임 미트업 (Vuetiful Korea) 2회 모임을 앞두고 오신 분들께 작은 선물을 드려야겠다고 생각했습니다. 문제는 어떻게 드려야 좋을지 고민하다가 제비뽑기 앱을 만들기로 했습니다. 겸사 겸사 NativeScript도 사용을 해서요.
 
-![book1-min](images/project-draw-lots/book1-min.png)
+![책](http://i.imgur.com/K5Gwrjh.png)
 
 예정된 선물입니다 :)
 
@@ -60,9 +60,9 @@ UI는 매우 화려하게 하고 싶었지만 처음 사용하는데 욕심을 �
 
 아래와 같은 앱입니다
 
-![photo6116165521679427628-min](images/project-draw-lots/photo6116165521679427628-min.jpg?raw=true)
+![시작](http://i.imgur.com/woMx4dc.jpg)
 
-![photo6116165521679427629-min](images/project-draw-lots/photo6116165521679427629-min.jpg?raw=true)
+![](http://i.imgur.com/ltlXe4j.jpg)
 
 ## 제비뽑기 앱의 구현 목표
 
